@@ -1,16 +1,21 @@
-<<<<<<< HEAD
-<!-- # api_final
-api final -->
-=======
-# api_final
-api final
-
 ### Описание проекта:
 
 Проект предоставляет backand api для проекта Yatube.
-Api позволяет регестрироваться, создавать и читать посты, оставлять комментарии
+Api позволяет создавать и читать посты, оставлять комментарии
 и подписываться на других пользователей.
 Доступ к чтению комментариев и постов доступен анонимным пользователям.
+
+### Используемые библиотеки:
+
+Django 3.2.16,
+pytest 6.2.4,
+pytest-pythonpath 0.7.3,
+pytest-django 4.4.0,
+djangorestframework 3.12.4,
+djangorestframework-simplejwt 4.7.2,
+Pillow 9.3.0,
+PyJWT 2.1.0,
+requests 2.26.0
 
 ### Как запустить проект:
 
@@ -89,4 +94,6 @@ python3 manage.py runserver
 ```
 /api/v1/jwt/create/
 ```
->>>>>>> fa057ba63cdb34170d152e4102f5a4eafc7fdc27
+
+Автор - Vlad-RND,
+GIT - https://github.com/Vlad-RND
