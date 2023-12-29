@@ -15,7 +15,7 @@ djangorestframework 3.12.4,
 djangorestframework-simplejwt 4.7.2,
 Pillow 9.3.0,
 PyJWT 2.1.0,
-requests 2.26.0,
+requests 2.26.0
 
 ### Как запустить проект:
 
