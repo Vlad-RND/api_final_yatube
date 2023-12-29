@@ -7,15 +7,15 @@ Api позволяет создавать и читать посты, остав
 
 ### Используемые библиотеки:
 
-Django 3.2.16
-pytest 6.2.4
-pytest-pythonpath 0.7.3
-pytest-django 4.4.0
-djangorestframework 3.12.4
-djangorestframework-simplejwt 4.7.2
-Pillow 9.3.0
-PyJWT 2.1.0
-requests 2.26.0
+Django 3.2.16,
+pytest 6.2.4,
+pytest-pythonpath 0.7.3,
+pytest-django 4.4.0,
+djangorestframework 3.12.4,
+djangorestframework-simplejwt 4.7.2,
+Pillow 9.3.0,
+PyJWT 2.1.0,
+requests 2.26.0,
 
 ### Как запустить проект:
 
@@ -95,5 +95,5 @@ python3 manage.py runserver
 /api/v1/jwt/create/
 ```
 
-Автор - Vlad-RND
+Автор - Vlad-RND,
 GIT - https://github.com/Vlad-RND
