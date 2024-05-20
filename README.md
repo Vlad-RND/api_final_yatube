@@ -1,3 +1,4 @@
+# Yatube api
 ### Описание проекта:
 
 Проект предоставляет backand api для проекта Yatube.
@@ -22,27 +23,27 @@ requests 2.26.0
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
-git clone https://github.com/Vlad-RND/api_final_yatube.git
+git clone https://github.com/Vlad-RND/yatube_api.git
 ```
 
 ```
-cd api_final_yatube
+cd yatube_api
 ```
 
 Cоздать и активировать виртуальное окружение:
 
 ```
-python3 -m venv env
+python -m venv env
 ```
 
 ```
-source env/bin/activate
+source venv/Scripts/activate
 ```
 
 Установить зависимости из файла requirements.txt:
 
 ```
-python3 -m pip install --upgrade pip
+python -m pip install --upgrade pip
 ```
 
 ```
@@ -52,13 +53,13 @@ pip install -r requirements.txt
 Выполнить миграции:
 
 ```
-python3 manage.py migrate
+python manage.py migrate
 ```
 
 Запустить проект:
 
 ```
-python3 manage.py runserver
+python manage.py runserver
 ```
 
 ### Примеры запросов:
